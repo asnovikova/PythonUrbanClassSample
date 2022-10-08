@@ -1,0 +1,33 @@
+class Zoning:
+    def __init__(self, area_residential: int, area_green: int, area_public: int):
+    """
+    Создание и подготовка к работе объекта "Зонирование"
+    :param area_residential: площадь жилой территории
+    :param area_green: площадь озелененных территорий
+    :param area_public: площадь общественных территорий
+    """
+    self.area_residential = area_residential
+    self.area_green = area_green
+    self.area_public = area_public
+
+    
+    def is_zone(self) -> bool:
+        """
+        Функция проверяет является ли словарь зоной
+        :return: Является ли объект зоной или нет
+        """
+        ...
+
+    def get_more_zone(self) -> str:   
+        """
+        Функция проверяет какая из зон больше
+        :return: Зона большая по площади 
+        """
+        ...
+
+    def get_sum_zone(self) -> int:
+        """
+        Функция, которая находит сумму всех зон
+        :return: Сумма всех зон
+        """
+        ... 

@@ -1,0 +1,37 @@
+class Rive:
+    def __init__(self, name_river: str, hight_water: int, hight_shore: int, water_rain: int):
+        """
+        Создание и подготовка к работе объекта "Река"
+        :param name_river: название реки
+        :param hight_water: уровень воды в реке
+        :param hight_shore: высота берега/подпорной стены
+        """
+        self.name_river = name_river
+        self.hight_water = hight_water
+        self.hight_shore = hight_shore
+
+    def is_rive(self) -> bool:
+        """
+        Функция, которая проверяет является ли словарь рекой
+        :return: Является объект рекой или нет
+        """
+        ...   
+
+    def get_name_river(self) -> str:
+        """
+        Функция, покажет все реки, у которых высота подпорной стенки ниже 3 м
+        :return: Реки, у которых высота подпорной стенки ниже 3 м
+        """
+        ... 
+
+
+    def rain_add_water_rain(self) -> int:
+        """
+        Прошел дождь, уровень воды в реке увеличился.
+        Если вода вышла из берегов, то возвращается объем воды, 
+        которая вышла за пределы реки
+        :return: Объем воды, которая вышла за пределы реки 
+        """
+        ...
+
+

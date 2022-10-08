@@ -1,0 +1,41 @@
+class Petersburg:
+    def __init__(self, name_district: str, population_district: int, area_green_district: int):
+    """
+    Создание и подготовка к работе объекта "Петербург"
+    :param name_district: название района города
+    :param population_district: население района города
+    :param area_green_district: площадь озеленения района города
+    """
+
+    self.name_district = name_district
+    self.population_district = population_district
+    self.area_green_district = area_green_district
+
+    def is_name_district(self) -> bool:
+        """
+        Функция, которая проверяет является ли словарь названием района
+        :return: Является объект названием района или нет
+        """
+        ...  
+    
+    def get_sum_population_district(self) -> int:
+        """
+        Функция, покажет сумму населения всех районов города
+        :return: Сумма населения всех районов города
+        """
+        ...
+
+    def k_area_green_district(self) -> str:
+        """
+        Функция, которая покажет районы, в которых коофициент озеления больше 0,2
+        :return: Районы, в которых коофициент озеления больше 0,2
+        """
+        ...
+
+    def comfort_district(self) -> str:
+        """
+        Функция, которая покажет район с наиболее низким числом населения, но с наибольшей площадью озеления 
+        :return: район с наиболее низким числом населения, но с наибольшей площадью озеления 
+        """
+        ...
+

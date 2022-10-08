@@ -1,9 +1,10 @@
 class Petersburg:
-    def __init__(self, name_district: str, population_district: int, area_green_district: int):
+    def __init__(self, name_district: str, population_district: int, area_district: int, area_green_district: int):
     """
     Создание и подготовка к работе объекта "Петербург"
     :param name_district: название района города
     :param population_district: население района города
+    :param area_district: площадь района города
     :param area_green_district: площадь озеленения района города
     """
 

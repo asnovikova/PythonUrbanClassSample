@@ -31,3 +31,5 @@ class Zoning:
         :return: Сумма всех зон
         """
         ... 
+
+
